@@ -7,9 +7,9 @@ answer_final_action_key = int(input("Key - 3: "))
 latters = "a b c d e f g h i j k l m n o p q r s t u v w x y z".split()
 num_of_latter = [*range(answer_range_key, answer_range_key + (len(latters)))]
 
-num_of_latter = [answer_start_action_key * elem for elem in num_of_latter]
+index_of_latter = [answer_start_action_key * elem for elem in num_of_latter]
 
-dict_num_latters = dict(zip(num_of_latter, latters))
+dict_num_latters = dict(zip(index_of_latter, latters))
 
 result_data = ""
 
