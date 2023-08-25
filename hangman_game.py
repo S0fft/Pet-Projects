@@ -1,6 +1,6 @@
 import random
 
-all_words = ["apple", "computer", "tv", "bike", "game", "greating", "magic", "roof", "fish", "orange", "laptop", "love", "lamp"]
+all_words = ["apple", "computer", "tv", "bike", "game", "greazting", "magic", "roof", "fish", "orange", "laptop", "love", "lamp"]
 current_word = f"{all_words[random.randint(0, len(all_words) - 1)]}"
 len_current_word = len(current_word)
 sum_of_latter = ""
