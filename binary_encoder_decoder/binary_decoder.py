@@ -10,7 +10,7 @@ for i in index_of_latter:
     step_int += len(str(i))
     break
 
-code_of_latter = 1  # Future array
+code_of_latter = 1
 
 code_of_latter = [int(elem) for elem in code_of_latter]
 
