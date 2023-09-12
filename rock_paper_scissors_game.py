@@ -1,6 +1,6 @@
 import random
 
-print("Rock Paper Scissors - GAME")
+print("Rock Paper Scissors - Game")
 
 
 def game():
